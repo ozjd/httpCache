@@ -1,0 +1,39 @@
+{
+  "name": "http-proxy",
+  "version": "1.0.0",
+  "description": "A HTTP/HTTPS cache for Node.JS",
+  "author": "Joshua Davison <joshua@davison.asia> (http://jd.davison.asia/)",
+  "homepage": "https://github.com/ozjd/httpCache",
+  "contributors": [
+    {}
+  ],
+  "scripts": {
+    "example": "node examples/index.js",
+    "start": "node index.js"
+  },
+  "directories": {
+    "example": "./examples"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ozjd/httpCache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ozjd/httpCache/issues"
+  },
+  "keywords": [
+    "HTTP",
+    "HTTPS",
+    "cache",
+    "file",
+    "API"
+  ],
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  },
+  "preferGlobal": false,
+  "private": false,
+  "analyze": true,
+  "license": "MIT"
+}
